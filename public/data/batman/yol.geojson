@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "yol",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "YOL_ADI": "Bülent Ecevit Bulvarı", "TUR": "Cadde" }, "geometry": { "type": "LineString", "coordinates": [ [ 4574429.571269831620157, 4562939.00442002993077 ], [ 4578882.35090156365186, 4562939.00442002993077 ], [ 4583335.13053329475224, 4562939.00442002993077 ] ] } },
+{ "type": "Feature", "properties": { "YOL_ADI": "Cumhuriyet Caddesi", "TUR": "Cadde" }, "geometry": { "type": "LineString", "coordinates": [ [ 4579104.989883149042726, 4558708.602255688980222 ], [ 4579104.989883149042726, 4562656.924012310802937 ], [ 4579104.989883149042726, 4566888.93485070951283 ] ] } },
+{ "type": "Feature", "properties": { "YOL_ADI": "Sanayi Caddesi", "TUR": "Cadde" }, "geometry": { "type": "LineString", "coordinates": [ [ 4580552.143263461068273, 4560964.602398808114231 ], [ 4582221.935625361278653, 4561951.756503724493086 ], [ 4583335.13053329475224, 4563362.13939571660012 ] ] } },
+{ "type": "Feature", "properties": { "YOL_ADI": "Raman Yolu", "TUR": "Cadde" }, "geometry": { "type": "LineString", "coordinates": [ [ 4574986.16872379835695, 4561951.756503724493086 ], [ 4576655.961085697636008, 4562656.924012310802937 ], [ 4577991.794975217431784, 4563785.291610612533987 ] ] } },
+{ "type": "Feature", "properties": { "YOL_ADI": "Pazar Sokak", "TUR": "Cadde" }, "geometry": { "type": "LineString", "coordinates": [ [ 4577769.155993630178273, 4561246.636858092620969 ], [ 4578882.35090156365186, 4561246.636858092620969 ], [ 4579995.545809496194124, 4561246.636858092620969 ] ] } },
+{ "type": "Feature", "properties": { "YOL_ADI": "Çarşı Sokak", "TUR": "Cadde" }, "geometry": { "type": "LineString", "coordinates": [ [ 4577991.794975217431784, 4564067.402665815316141 ], [ 4579438.948355529457331, 4564067.402665815316141 ], [ 4581108.740717428736389, 4564067.402665815316141 ] ] } }
+]
+}

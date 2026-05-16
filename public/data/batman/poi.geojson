@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "AD": "Batman Devlet Hastanesi", "kategori": "hastane" }, "geometry": { "type": "Point", "coordinates": [ 4578904.614799722097814, 4562769.755256158299744 ] } },
+{ "type": "Feature", "properties": { "AD": "Batman Üniversitesi Hastanesi", "kategori": "hastane" }, "geometry": { "type": "Point", "coordinates": [ 4578459.336836548522115, 4562487.67944451328367 ] } },
+{ "type": "Feature", "properties": { "AD": "Merkez Eczanesi", "kategori": "eczane" }, "geometry": { "type": "Point", "coordinates": [ 4578681.975818135775626, 4562699.23558512609452 ] } },
+{ "type": "Feature", "properties": { "AD": "Ulu Cami", "kategori": "cami" }, "geometry": { "type": "Point", "coordinates": [ 4579182.913526705466211, 4562600.508849986828864 ] } },
+{ "type": "Feature", "properties": { "AD": "Ziraat Bankası", "kategori": "banka" }, "geometry": { "type": "Point", "coordinates": [ 4578348.017345755361021, 4562417.16168843023479 ] } },
+{ "type": "Feature", "properties": { "AD": "Cumhuriyet Parkı", "kategori": "park" }, "geometry": { "type": "Point", "coordinates": [ 4578793.295308928005397, 4562910.796034537255764 ] } },
+{ "type": "Feature", "properties": { "AD": "Batman Kalesi", "kategori": "turistik" }, "geometry": { "type": "Point", "coordinates": [ 4579015.934290515258908, 4562205.611292383633554 ] } },
+{ "type": "Feature", "properties": { "AD": "Güneş Oteli", "kategori": "otel" }, "geometry": { "type": "Point", "coordinates": [ 4578570.656327342614532, 4562840.275405958294868 ] } }
+]
+}

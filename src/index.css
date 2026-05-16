@@ -1,0 +1,42 @@
+/* =========================================
+   CBS - Global Stiller
+   BU DOSYA KRİTİK — olmadan harita siyah kalır
+   ========================================= */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* html → body → #root zinciri tam height almalı */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #1a1a1a;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* OpenLayers canvas siyah kalmasın */
+.ol-viewport {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ol-layer canvas {
+  display: block;
+}
