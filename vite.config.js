@@ -15,10 +15,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          ol:       ["ol"],
-          react:    ["react", "react-dom"],
-          supabase: ["@supabase/supabase-js"],
+       manualChunks: (id) => {
+          if (id.includes("node_modules/ol")) return "ol";
+          if (id.includes("node_modules/react")) return "react";
+          if (id.includes("node_modules/@supabase")) return "supabase";
         },
       },
     },
